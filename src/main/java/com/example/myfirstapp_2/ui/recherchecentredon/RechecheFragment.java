@@ -1,4 +1,4 @@
-package com.example.myfirstapp_2.ui.gallery;
+package com.example.myfirstapp_2.ui.recherchecentredon;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.myfirstapp_2.R;
 
-public class GalleryFragment extends Fragment {
+public class RechecheFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
+    private RechercheViewModel rechercheViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        rechercheViewModel =
+                new ViewModelProvider(this).get(RechercheViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_recherche_centre, container, false);
+        final TextView textView = root.findViewById(R.id.text_slideshow);
+        rechercheViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

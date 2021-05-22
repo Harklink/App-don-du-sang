@@ -1,16 +1,16 @@
-package com.example.myfirstapp_2.ui.slideshow;
+package com.example.myfirstapp_2.ui.recherchecentredon;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class RechercheViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public RechercheViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("Les centres les plus proches de chez vous s'afficheront ici");
     }
 
     public LiveData<String> getText() {

@@ -1,13 +1,52 @@
 <resources>
-    <string name="app_name">My first app_2</string>
+    <string name="app_name">App don du sang</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Imene OUZINEB</string>
+    <string name="nav_header_subtitle">imene.ouzineb@telecom-sudparis.eu</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Mon profil</string>
 
+    <string name="menu_accueil">Accueil</string>
     <string name="menu_slideshow">Où puis-je donner ?</string>
     <string name="menu_home">"Historique de mes dons "</string>
     <string name="menu_gallery">Suis-je apte au don ?</string>
+    <string name="title_activity_profil">Profil</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="profile_name">NOM : OUZINEB</string>
+    <string name="profile_surname">PRENOM : Myriame</string>
+    <string name="profile_gender">Sexe : Féminin</string>
+    <string name="profile_birthdate">Date de naissance : 12 octobre 2000</string>
+    <string name="profile_weight">Poids : 73 kg</string>
+    <string name="profile_tall">Taille : 1m76</string>
+    <string name="profile_IMC">IMC : 23</string>
+    <string name="profile_bloodgroup">Groupe sanguin : O+</string>
+    <string name="profile_disease">Eventuelle pathologie : dysplasie femoro-patellaire</string>
+    <string name="profile_number_given">Nombre total de dons : 42</string>
+    <string name="todo">TODO</string>
+    <string name="calendar_last_blood_date">Dernier don de sang :</string>
+    <string name="calendar_last_plasma">Dernier don de plasma :</string>
+    <string name="calendar_next_blood">Prochain don de sang possible :</string>
+    <string name="calendar_next_plasma">Prochain don de plasma possible :</string>
+    <string name="questions_no">Non</string>
+    <string name="questions_yes">Oui</string>
+    <string name="questions_1">Question 1</string>
+    <string name="questions_1_text">Êtes-vous allé(e) chez le dentiste dans les 7 derniers jours ?</string>
+    <string name="where_don_research">Rechercher un centre :</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="accueil_phrase_welcome">Bienvenue sur notre application</string>
+    <string name="intro">Une appli créée par 4 étudiantes pour vous faciliter la vie, et vous permettre d\'en sauver.</string>
+    <string name="logo_du_don_du_sang">Logo du don du sang</string>
+    <string name="titlefunfact">Le saviez-vous ?</string>
+    <string name="funfact">Une personne qui donne son sang régulièrement peut sauver environ 1 000 vies au cours de son existence.</string>
+    <string name="title_activity_page_ajout_don">PageAjoutDon</string>
+    <string name="item_profile">Mon profil</string>
+    <string name="txt_accueil">Accueil</string>
 </resources>

@@ -3,23 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_accueil">
+    <fragment
+        android:id="@+id/nav_accueil"
+        android:name="com.example.myfirstapp_2.Accueil"
+        android:label="@string/menu_accueil"
+        tools:layout="@layout/fragment_accueil" />
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.myfirstapp_2.ui.home.HomeFragment"
+        android:id="@+id/nav_historique"
+        android:name="com.example.myfirstapp_2.ui.Historiquedon.HistoriqueFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_historique" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.myfirstapp_2.ui.gallery.GalleryFragment"
+        android:name="com.example.myfirstapp_2.ui.aptitudedon.aptitudeFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_aptitude_don" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.myfirstapp_2.ui.slideshow.SlideshowFragment"
+        android:name="com.example.myfirstapp_2.ui.recherchecentredon.RechecheFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_recherche_centre" />
+
+    <activity
+        android:id="@+id/nav_profil"
+        android:name="com.example.myfirstapp_2.Profil"
+        android:label="@string/title_activity_profil"
+        android:theme="@style/Theme.MyFirstApp_2.NoActionBar"
+        tools:layout="@layout/content_profil"/>
 </navigation>
